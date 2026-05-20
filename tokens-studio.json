@@ -1,0 +1,35 @@
+{
+  "Cashalo": {
+    "Base": {
+      "White": { "$type": "color", "$value": "#ffffff" },
+      "Black": { "$type": "color", "$value": "#000000" }
+    },
+    "Blue": {
+      "100": { "$type": "color", "$value": "#dcdcf6" },
+      "200": { "$type": "color", "$value": "#b2b2ff" },
+      "300": { "$type": "color", "$value": "#0000ff", "$description": "Primary brand blue." }
+    },
+    "Gold": {
+      "300": { "$type": "color", "$value": "#ffad02", "$description": "Secondary brand gold." }
+    },
+    "Shades": {
+      "600": { "$type": "color", "$value": "#3a3a3a" },
+      "900": { "$type": "color", "$value": "#100f0f" }
+    }
+  },
+  "semantic": {
+    "brand": {
+      "primary":   { "$type": "color", "$value": "{Cashalo.Blue.300}", "$description": "Primary brand color." },
+      "secondary": { "$type": "color", "$value": "{Cashalo.Gold.300}", "$description": "Secondary brand color." }
+    },
+    "text": {
+      "header": { "$type": "color", "$value": "{Cashalo.Shades.900}", "$description": "Section headers." },
+      "body":   { "$type": "color", "$value": "{Cashalo.Shades.600}", "$description": "Default body text." }
+    }
+  },
+  "spacing": {
+    "tight":   { "$type": "spacing", "$value": "4" },
+    "close":   { "$type": "spacing", "$value": "8" },
+    "grouped": { "$type": "spacing", "$value": "16" }
+  }
+}
