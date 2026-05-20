@@ -1,8 +1,8 @@
 import StyleDictionary from 'style-dictionary';
 import { register } from '@tokens-studio/sd-transforms';
 
-// Register Tokens Studio's transforms so Style Dictionary understands
-// the W3C-style $type/$value format and Token Studio's references.
+// Register Tokens Studio's transforms + preprocessors so Style Dictionary
+// understands W3C-style $type/$value format and resolves Token Studio references.
 register(StyleDictionary);
 
 const sd = new StyleDictionary({
@@ -10,8 +10,7 @@ const sd = new StyleDictionary({
   preprocessors: ['tokens-studio'],
   platforms: {
     ios: {
-      transformGroup: 'tokens-studio',
-      transforms: ['name/camel'],
+      transformGroup: 'ios-swift', // ← built-in: handles UIColor + CGFloat
       buildPath: 'dist/ios/',
       files: [
         {
@@ -25,8 +24,7 @@ const sd = new StyleDictionary({
       ],
     },
     android: {
-      transformGroup: 'tokens-studio',
-      transforms: ['name/snake'],
+      transformGroup: 'compose', // ← built-in: handles Color(0xFF...) + .dp
       buildPath: 'dist/android/',
       files: [
         {
