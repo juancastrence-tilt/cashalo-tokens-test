@@ -1,0 +1,28 @@
+name: Reset token-studio-sync after merge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tokens-studio.json'
+
+permissions:
+  contents: write
+
+jobs:
+  reset-sync-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: main
+
+      - name: Reset token-studio-sync to match main
+        run: |
+          # Force-push main's current state to token-studio-sync.
+          # Creates the branch if it doesn't exist (e.g. after auto-delete on merge),
+          # or resets it to main if it does exist.
+          git push origin HEAD:refs/heads/token-studio-sync --force
+          echo "token-studio-sync is now at the same commit as main."
