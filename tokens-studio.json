@@ -1749,6 +1749,16 @@
             },
             "$type": "color",
             "$value": "#000000"
+          },
+          "Test Color": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0000a4"
           }
         },
         "Shades": {
@@ -2782,6 +2792,16 @@
             },
             "$type": "color",
             "$value": "#000000"
+          },
+          "Test Color": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0000a4"
           }
         },
         "Shades": {
