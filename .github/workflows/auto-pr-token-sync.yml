@@ -1,0 +1,26 @@
+name: Auto-PR Token Studio sync
+
+on:
+  push:
+    branches:
+      - token-studio-sync
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  open-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create or update PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --repo juancastrence-tilt/cashalo-tokens-test \
+            --base main \
+            --head token-studio-sync \
+            --title "[Token Studio] Sync from Figma" \
+            --body "Automated PR — Token Studio pushed updated tokens-studio.json from Figma. Review the diff before merging." \
+            || echo "PR already exists for this branch; no new PR opened."
