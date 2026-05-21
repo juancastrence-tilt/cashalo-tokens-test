@@ -22,12 +22,13 @@
         },
         "300": {
           "$type": "color",
-          "$value": "#b2b2ff"
+          "$value": "#0000ff",
+          "$description": "Primary brand color. Header text, primary buttons, text-links."
         },
         "900": {
           "$type": "color",
-          "$value": "#0000ff",
-          "$description": "Header text, primary buttons, text-links"
+          "$value": "{Cashalo.Blue.300}",
+          "$description": "DEPRECATED — use Cashalo.Blue.300. Temporary alias for v1 → v2 migration."
         }
       },
       "Gold": {
@@ -99,6 +100,14 @@
         "Red": {
           "$type": "color",
           "$value": "#f7776e"
+        },
+        "Dark Lime": {
+          "$type": "color",
+          "$value": "#4e5714"
+        },
+        "Dark Yellow": {
+          "$type": "color",
+          "$value": "#6b4b00"
         }
       },
       "Shades": {
@@ -2738,16 +2747,6 @@
           }
         }
       }
-    },
-    "Test Color": {
-      "$extensions": {
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.hiddenFromPublishing": false
-      },
-      "$type": "color",
-      "$value": "#0000ff4d"
     }
   },
   "Cashalo Tokens/Dark": {
@@ -3771,16 +3770,6 @@
           }
         }
       }
-    },
-    "Test Color": {
-      "$extensions": {
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.hiddenFromPublishing": false
-      },
-      "$type": "color",
-      "$value": "#0000ff4d"
     }
   },
   "$themes": [],
