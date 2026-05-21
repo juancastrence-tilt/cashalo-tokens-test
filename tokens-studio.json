@@ -2334,7 +2334,26 @@
             },
             "$type": "color",
             "$value": "{Primitive.Colors.Gold.300}"
-          }
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Primitive.Colors.Blue.300}",
+          "$description": "Use for headers, emphasized words, or CTAs"
+        },
+        "Secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Primitive.Colors.Gold.300}"
         }
       },
       "Colors": {
@@ -2712,8 +2731,32 @@
             "$type": "color",
             "$value": "{Primitive.Colors.Gold.300}"
           }
+        },
+        "Semantic": {
+          "Colors": {
+            "Test": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "#0000a4"
+            }
+          }
         }
       }
+    },
+    "Test Color": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "#0000ff4d"
     }
   },
   "Cashalo Tokens/Dark": {
@@ -3324,7 +3367,26 @@
             },
             "$type": "color",
             "$value": "{Primitive.Colors.Gold.300}"
-          }
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Primitive.Colors.Blue.300}",
+          "$description": "Use for headers, emphasized words, or CTAs"
+        },
+        "Secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Primitive.Colors.Gold.300}"
         }
       },
       "Colors": {
@@ -3702,8 +3764,32 @@
             "$type": "color",
             "$value": "{Primitive.Colors.Gold.300}"
           }
+        },
+        "Semantic": {
+          "Colors": {
+            "Test": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$type": "color",
+              "$value": "#ffffff"
+            }
+          }
         }
       }
+    },
+    "Test Color": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "color",
+      "$value": "#0000ff4d"
     }
   },
   "$themes": [],
