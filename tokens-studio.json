@@ -22,13 +22,12 @@
         },
         "300": {
           "$type": "color",
-          "$value": "#0000ff",
-          "$description": "Primary brand color. Header text, primary buttons, text-links."
+          "$value": "#b2b2ff"
         },
         "900": {
           "$type": "color",
-          "$value": "{Cashalo.Blue.300}",
-          "$description": "DEPRECATED — use Cashalo.Blue.300. Temporary alias for v1 → v2 migration."
+          "$value": "#0000ff",
+          "$description": "Header text, primary buttons, text-links"
         }
       },
       "Gold": {
@@ -108,6 +107,18 @@
         "Dark Yellow": {
           "$type": "color",
           "$value": "#6b4b00"
+        },
+        "Dark Green": {
+          "$type": "color",
+          "$value": "#305a26"
+        },
+        "Dark Orange": {
+          "$type": "color",
+          "$value": "#8a3900"
+        },
+        "Dark Red": {
+          "$type": "color",
+          "$value": "#a51309"
         }
       },
       "Shades": {
@@ -152,6 +163,120 @@
         "500": {
           "$type": "color",
           "$value": "#e5e5e5"
+        }
+      },
+      "Secondary": {
+        "Orchid": {
+          "100": {
+            "$type": "color",
+            "$value": "#e5d3ec"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#d8bde3"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#c195d3"
+          }
+        },
+        "Persimmon": {
+          "100": {
+            "$type": "color",
+            "$value": "#f3cfc4"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#e9a38e"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#e27f63"
+          }
+        },
+        "Blue": {
+          "100": {
+            "$type": "color",
+            "$value": "#c2e3ec"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#8bc8da"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#67aabe"
+          }
+        },
+        "Marigold": {
+          "100": {
+            "$type": "color",
+            "$value": "#fae2bd"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#f4ba70"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#e59f4d"
+          }
+        },
+        "Harvest": {
+          "100": {
+            "$type": "color",
+            "$value": "#e0d4cb"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#c8b4a4"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#b39781"
+          }
+        },
+        "Mint": {
+          "100": {
+            "$type": "color",
+            "$value": "#baeadc"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#88dac1"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#5cb898"
+          }
+        },
+        "Lawn": {
+          "100": {
+            "$type": "color",
+            "$value": "#ddebc1"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#c4dc93"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#aacd65"
+          }
+        },
+        "Visteria": {
+          "100": {
+            "$type": "color",
+            "$value": "#c9cfe4"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#aeb7d6"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#8593c1"
+          }
         }
       }
     },
